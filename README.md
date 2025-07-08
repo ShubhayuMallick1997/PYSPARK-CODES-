@@ -92,9 +92,9 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="200" height="150">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="200" height="150">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="200" height="150">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/hadoop-logo.png" alt="aws" width="200" height="150">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/azure_sql_database_logo_freelogovectors.net_.png" alt="aws" width="100" height="150">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/AWS-Logo-PNG-Image.png" alt="aws" width="200" height="150">
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/hadoop-logo.png" alt="aws" width="180" height="130">
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/azure_sql_database_logo_freelogovectors.net_.png" alt="aws" width="100" height="140">
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/AWS-Logo-PNG-Image.png" alt="aws" width="180" height="150">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/1678719746960-removebg-preview.png" alt="aws" width="200" height="150">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/SNOW-35164165.png" alt="aws" width="120" height="140">
   
