@@ -79,12 +79,3 @@ conf.set("spark.sql.shuffle.partitions", "200")
 
 ---
 
-Now the **two Python code blocks** are properly enclosed, and the Markdown text renders cleanly between them. Let me know if you want the full section as a downloadable `.md` file!
-```
-
-conf = SparkConf()
-conf.setAppName("ETL-Pipeline")
-conf.setMaster("yarn")
-conf.set("spark.executor.memory", "4g")
-conf.set("spark.driver.memory", "2g")
-conf.set("spark.sql.shuffle.partitions", "200")
