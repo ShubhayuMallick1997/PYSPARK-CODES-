@@ -18,9 +18,39 @@ from pyspark import SparkConf, SparkContext
 conf = SparkConf().setAppName("MyApp").setMaster("local[*]")
 sc = SparkContext(conf=conf)
 
-## setAppName() – Sets the name shown in the Spark UI
+### 🔹 `setAppName()` and `setMaster()`
 
-setMaster() – Specifies where the job runs (e.g., local, yarn, spark://...)
+- `setAppName()` – Sets the name of your Spark application, which will be visible in the **Spark UI** and job history server.
+- `setMaster()` – Defines the **cluster manager** where the Spark job will run.  
+  Examples:
+  - `local[*]` – Run locally with all available cores
+  - `yarn` – Use YARN for cluster management
+  - `spark://<master-url>` – Connect to a Spark standalone cluster
 
-⚠️ In modern PySpark (2.x+), SparkContext is accessed via SparkSession. Manual initialization is rare unless using lower-level RDD APIs.
+> ⚠️ In modern PySpark (2.x+), `SparkContext` is typically accessed **via `SparkSession`**. Manual initialization of `SparkContext` is rare unless you're working directly with **RDDs** or legacy Spark applications.
 
+---
+
+### 🔹 `SparkConf` Settings
+
+`SparkConf` is used to **configure your Spark application** at runtime. It lets you define critical parameters such as:
+
+- **Application Name**
+- **Cluster Master URL** (e.g., local, YARN, Mesos)
+- **Memory and Core Allocation** for Driver and Executors
+- **Custom Configurations** like:
+  - Enabling Hive support
+  - Optimizing shuffle behavior
+  - Setting log levels
+  - Tuning SQL performance
+
+#### 🔧 Example:
+```python
+from pyspark import SparkConf
+
+conf = SparkConf()
+conf.setAppName("ETL-Pipeline")
+conf.setMaster("yarn")
+conf.set("spark.executor.memory", "4g")
+conf.set("spark.driver.memory", "2g")
+conf.set("spark.sql.shuffle.partitions", "200")
