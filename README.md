@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/Logo.png" alt="aws" width="2000" height="1500"/>
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/Logo.png" alt="aws" width="2000" height="800"/>
 </p>
 ---
 
