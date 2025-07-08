@@ -73,7 +73,7 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
+  <a href="https://github.com/ShubhayuMallick1997/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=shubhayumallick1997" alt="GitHub Trophies" />
   </a>
 </p>
