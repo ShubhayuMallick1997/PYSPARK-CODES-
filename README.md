@@ -59,7 +59,7 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
 ## 📢 Connect with Me
 
 - 📧 Email: shubhayu250497@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/shubhayu-mallick-76a3a426a](https://www.linkedin.com/in/shubhayu-mallick-76a3a426a)
+- 💼 LinkedIn: [https://www.linkedin.com/in/shubhayu-mallick-76a3a426a]
 - 🌐 Portfolio/Blog: <i>Coming Soon</i>
 
 ---
