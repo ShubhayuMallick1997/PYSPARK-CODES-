@@ -205,11 +205,3 @@ rdd.persist(StorageLevel.MEMORY_AND_DISK)
 
 ---
 
-Ready to move on to [4. DataFrames and Datasets](#)? 📑 Let’s dive in!
-
-```
-
----
-
-Let me know if you want this as a downloadable file or embedded into a GitHub `README.md`.
-```
