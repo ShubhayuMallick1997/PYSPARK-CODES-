@@ -8,7 +8,7 @@
 ```python
 data = [1, 2, 3, 4, 5]
 rdd = sc.parallelize(data)
-````
+```
 
 This creates an RDD from a Python list using the `SparkContext.parallelize()` method.
 
