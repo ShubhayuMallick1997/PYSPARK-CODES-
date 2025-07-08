@@ -1,0 +1,192 @@
+
+---
+
+````markdown
+# 📑 5. DataFrame Transformations
+
+---
+
+## 🔹 What are DataFrame Transformations?
+
+Transformations in PySpark are **operations that return a new DataFrame** by modifying the original one. These operations are **lazy**, meaning they are not executed until an **action** (e.g., `show()`, `count()`, `write()`) is triggered.
+
+Transformations are used to:
+- Filter records
+- Modify or create columns
+- Convert data types
+- Clean, enrich, or prepare data for analysis or writing
+
+---
+
+## ✅ 1. Filtering Rows (`filter`, `where`)
+
+Both `filter()` and `where()` are used to subset rows based on conditions.
+
+```python
+# Using filter with condition
+df.filter(df["age"] > 30).show()
+
+# Using SQL-style string expression
+df.filter("age > 30 AND gender = 'Male'").show()
+
+# Using where (same as filter)
+df.where(df["salary"] > 50000).show()
+````
+
+> `filter()` and `where()` are **functionally identical**.
+
+---
+
+## ✅ 2. Adding or Modifying Columns (`withColumn`)
+
+Use `withColumn()` to **add a new column** or **modify an existing column**.
+
+```python
+from pyspark.sql.functions import col
+
+# Add new column by doubling existing one
+df = df.withColumn("double_salary", col("salary") * 2)
+
+# Modify existing column
+df = df.withColumn("age", col("age") + 1)
+```
+
+---
+
+## ✅ 3. Type Casting Columns
+
+You can change the data type of a column using `.cast()`.
+
+```python
+df = df.withColumn("salary", col("salary").cast("float"))
+df = df.withColumn("date", col("date").cast("date"))
+```
+
+Useful for ensuring correct types before writing to external systems or doing aggregations.
+
+---
+
+## ✅ 4. Dropping and Renaming Columns
+
+### 🔸 Dropping Columns
+
+```python
+df = df.drop("unnecessary_column")
+```
+
+### 🔸 Renaming Columns
+
+```python
+df = df.withColumnRenamed("emp_name", "employee_name")
+```
+
+> Renaming is often needed to standardize schema or avoid naming conflicts.
+
+---
+
+## ✅ 5. Using `distinct()` and `dropDuplicates()`
+
+### 🔸 `distinct()`
+
+Removes **duplicate rows** across the entire DataFrame.
+
+```python
+df.select("department").distinct().show()
+```
+
+### 🔸 `dropDuplicates()`
+
+Removes duplicates based on **specific column(s)**.
+
+```python
+df.dropDuplicates(["department", "salary"]).show()
+```
+
+---
+
+## ✅ 6. String Functions
+
+Import from `pyspark.sql.functions`.
+
+```python
+from pyspark.sql.functions import upper, lower, length, trim
+
+df.select(upper(col("name")).alias("name_upper")).show()
+df.select(length(col("email")).alias("email_length")).show()
+df.select(trim(col("name"))).show()
+```
+
+Common String Functions:
+
+* `upper()`, `lower()`
+* `length()`
+* `trim()`, `ltrim()`, `rtrim()`
+* `concat()`, `substring()`
+* `instr()`, `locate()`, `regexp_replace()`
+
+---
+
+## ✅ 7. Date & Time Functions
+
+```python
+from pyspark.sql.functions import current_date, datediff, to_date
+
+df = df.withColumn("today", current_date())
+df = df.withColumn("days_since_joining", datediff(current_date(), col("joining_date")))
+df = df.withColumn("joining_date", to_date(col("joining_date"), "yyyy-MM-dd"))
+```
+
+Common Date Functions:
+
+* `current_date()`, `current_timestamp()`
+* `datediff()`, `add_months()`, `months_between()`
+* `year()`, `month()`, `dayofmonth()`, `weekofyear()`
+
+---
+
+## ✅ 8. Conditional Logic (`when`, `otherwise`)
+
+Use `when()` and `otherwise()` to implement **if-else** logic in DataFrames.
+
+```python
+from pyspark.sql.functions import when
+
+df = df.withColumn("status", when(col("salary") > 50000, "High")
+                                .otherwise("Low"))
+```
+
+Nested Conditions:
+
+```python
+df = df.withColumn("grade", 
+        when(col("marks") >= 90, "A")
+        .when(col("marks") >= 75, "B")
+        .when(col("marks") >= 60, "C")
+        .otherwise("D"))
+```
+
+---
+
+## ✅ Summary
+
+| Transformation Type | Function(s)                      | Example                                      |
+| ------------------- | -------------------------------- | -------------------------------------------- |
+| Filter rows         | `filter()`, `where()`            | `df.filter("age > 30")`                      |
+| Add/Modify columns  | `withColumn()`                   | `df.withColumn("bonus", col("x")*0.1)`       |
+| Change data type    | `cast()`                         | `col("x").cast("int")`                       |
+| Drop/Rename columns | `drop()`, `withColumnRenamed()`  | `df.drop("x")`                               |
+| Remove duplicates   | `distinct()`, `dropDuplicates()` | `df.dropDuplicates(["id"])`                  |
+| String ops          | `upper()`, `length()` etc.       | `df.select(upper(col("name")))`              |
+| Date ops            | `to_date()`, `datediff()`        | `df.withColumn(...)`                         |
+| Conditional logic   | `when()`, `otherwise()`          | `when(col("x")>10, "high").otherwise("low")` |
+
+---
+
+Ready to move on to [6. Aggregations and Grouping](#)? 🧮 Let's explore grouping, pivoting, and window functions!
+
+```
+
+---
+
+Would you like a **code notebook** version or this section exported as a **`.md` file for GitHub/portfolio use**?
+```
