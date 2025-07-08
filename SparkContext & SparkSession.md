@@ -1,5 +1,3 @@
-Here is the complete elaboration of **Point 2: SparkContext & SparkSession** in **Markdown (`.md`) format**:
-
 ---
 
 ````markdown
