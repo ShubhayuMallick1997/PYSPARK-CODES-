@@ -2,38 +2,61 @@
 ---
 
 ````markdown
+Certainly! Here's the same section rewritten in **normal Markdown (non-codeblock)** formatting for easier reading and documentation-style presentation:
+
+---
+
 # 📑 5. DataFrame Transformations
 
 ---
 
 ## 🔹 What are DataFrame Transformations?
 
-Transformations in PySpark are **operations that return a new DataFrame** by modifying the original one. These operations are **lazy**, meaning they are not executed until an **action** (e.g., `show()`, `count()`, `write()`) is triggered.
+Transformations in PySpark are **operations that return a new DataFrame** by modifying the original one. These operations are **lazy**, meaning they are not executed until an **action** such as `show()`, `count()`, or `write()` is triggered.
 
-Transformations are used to:
-- Filter records
-- Modify or create columns
-- Convert data types
-- Clean, enrich, or prepare data for analysis or writing
+Transformations are commonly used to:
+
+* Filter rows
+* Add or modify columns
+* Convert data types
+* Clean, enrich, and structure data for downstream consumption
 
 ---
 
 ## ✅ 1. Filtering Rows (`filter`, `where`)
 
-Both `filter()` and `where()` are used to subset rows based on conditions.
+PySpark provides two equivalent functions for filtering rows:
 
-```python
-# Using filter with condition
-df.filter(df["age"] > 30).show()
+* `filter()`
+* `where()`
 
-# Using SQL-style string expression
-df.filter("age > 30 AND gender = 'Male'").show()
+Both can accept expressions or column-based conditions.
 
-# Using where (same as filter)
-df.where(df["salary"] > 50000).show()
-````
+**Examples:**
 
-> `filter()` and `where()` are **functionally identical**.
+* Filter rows where age is greater than 30 using column expression:
+
+  ```python
+  df.filter(df["age"] > 30).show()
+  ```
+
+* Use a SQL-style string expression to apply multiple conditions:
+
+  ```python
+  df.filter("age > 30 AND gender = 'Male'").show()
+  ```
+
+* Use `where()` instead of `filter()` — it behaves the same:
+
+  ```python
+  df.where(df["salary"] > 50000).show()
+  ```
+
+> ℹ️ You can use either `filter()` or `where()`; they are interchangeable in DataFrame operations.
+
+---
+
+Let me know if you'd like the next sections ("withColumn", "cast", etc.) in the same format.
 
 ---
 
