@@ -1,12 +1,3 @@
-Thanks for sharing your formatted markdown! You’re almost there — just a couple of syntax corrections are needed:
-
-### ✅ Main Issue:
-
-You opened a markdown code block using **four backticks (` ````markdown `)** at the top, but didn’t close it correctly at the end. This caused the rest of the markdown to be interpreted as code instead of formatted content.
-
----
-
-### ✅ Corrected Version:
 
 ````markdown
 # 📊 3. RDDs (Resilient Distributed Datasets)
