@@ -17,3 +17,10 @@ from pyspark import SparkConf, SparkContext
 
 conf = SparkConf().setAppName("MyApp").setMaster("local[*]")
 sc = SparkContext(conf=conf)
+
+## setAppName() – Sets the name shown in the Spark UI
+
+setMaster() – Specifies where the job runs (e.g., local, yarn, spark://...)
+
+⚠️ In modern PySpark (2.x+), SparkContext is accessed via SparkSession. Manual initialization is rare unless using lower-level RDD APIs.
+
