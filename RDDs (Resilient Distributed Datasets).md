@@ -54,9 +54,6 @@ This reads a text file (line by line) into an RDD.
 > ⚠️ Use `SparkContext` (`sc`) to create RDDs. In modern PySpark workflows, DataFrames (via `SparkSession`) are typically preferred for structured data.
 
 ---
-
-Let me know if you'd like to continue with the next part or export this as a `.md` file.
-
 ```
 
 ---
