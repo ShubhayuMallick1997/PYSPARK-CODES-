@@ -1,0 +1,195 @@
+
+---
+
+# 🔁 8. Working with Files in PySpark
+
+---
+
+## 🔹 Overview
+
+PySpark supports reading from and writing to various file formats commonly used in data pipelines. These include:
+
+* CSV
+* JSON
+* Parquet
+* Avro
+* ORC
+* Text files
+
+PySpark also supports file interactions with storage systems like:
+
+* Local file system
+* **HDFS (Hadoop Distributed File System)**
+* **Amazon S3**
+* **Azure Blob**
+* **Google Cloud Storage**
+
+---
+
+## ✅ 1. Reading CSV Files
+
+```python
+df = spark.read \
+    .option("header", "true") \
+    .option("inferSchema", "true") \
+    .csv("s3://my-bucket/data/employees.csv")
+```
+
+**Common CSV options:**
+
+| Option        | Purpose                           |
+| ------------- | --------------------------------- |
+| `header`      | Read the first line as header     |
+| `inferSchema` | Automatically detect column types |
+| `delimiter`   | Set custom delimiter (e.g., `;`)  |
+| `quote`       | Define quote character            |
+
+---
+
+## ✅ 2. Writing CSV Files
+
+```python
+df.write \
+    .option("header", "true") \
+    .mode("overwrite") \
+    .csv("s3://my-bucket/output/employees_csv")
+```
+
+**Write Modes:**
+
+* `overwrite` – Replace existing files
+* `append` – Add to existing data
+* `ignore` – Do nothing if path exists
+* `error` or `errorifexists` – Throw error if path exists (default)
+
+---
+
+## ✅ 3. Reading JSON Files
+
+```python
+df = spark.read.json("s3://my-bucket/data/employees.json")
+```
+
+* PySpark supports **multi-line JSON** with `.option("multiLine", "true")`.
+
+---
+
+## ✅ 4. Writing JSON Files
+
+```python
+df.write.mode("overwrite").json("s3://my-bucket/output/employees_json")
+```
+
+* JSON is commonly used for semi-structured or nested data.
+
+---
+
+## ✅ 5. Reading Parquet Files
+
+```python
+df = spark.read.parquet("s3://my-bucket/data/employees.parquet")
+```
+
+* **Parquet** is a columnar format, optimized for speed and storage.
+* Automatically stores schema and supports compression.
+
+---
+
+## ✅ 6. Writing Parquet Files
+
+```python
+df.write.mode("overwrite").parquet("s3://my-bucket/output/employees_parquet")
+```
+
+> ✅ Recommended format for most production pipelines due to efficiency and compact size.
+
+---
+
+## ✅ 7. Reading Avro Files
+
+Requires package: `spark-avro`
+
+```python
+df = spark.read.format("avro").load("s3://my-bucket/data/employees.avro")
+```
+
+**To use Avro in AWS Glue or Databricks,** Avro support is usually pre-installed.
+
+---
+
+## ✅ 8. Writing Avro Files
+
+```python
+df.write.format("avro").save("s3://my-bucket/output/employees_avro")
+```
+
+* Useful for Kafka, streaming systems, or schema-based serialization.
+
+---
+
+## ✅ 9. Reading ORC Files
+
+```python
+df = spark.read.orc("s3://my-bucket/data/employees.orc")
+```
+
+* Like Parquet, **ORC** is columnar and optimized for Hadoop-based ecosystems.
+
+---
+
+## ✅ 10. Writing ORC Files
+
+```python
+df.write.mode("overwrite").orc("s3://my-bucket/output/employees_orc")
+```
+
+---
+
+## 🔍 Extra: Reading Text Files
+
+```python
+df = spark.read.text("s3://my-bucket/data/file.txt")
+```
+
+Each line becomes a single row with one string column named `"value"`.
+
+---
+
+## 🔧 Partitioning and Compression
+
+### ✅ Partitioning While Writing
+
+```python
+df.write.partitionBy("department").parquet("s3://output/path/")
+```
+
+This saves data in subdirectories like:
+
+```
+/output/path/department=HR/
+/output/path/department=Finance/
+```
+
+### ✅ Compression
+
+Use `.option("compression", "snappy")` (or `gzip`, `none`, etc.) with supported formats:
+
+```python
+df.write.option("compression", "snappy").parquet("s3://path/")
+```
+
+---
+
+## ✅ Summary Table
+
+| Format  | Read Function               | Write Function            | Notes                                 |
+| ------- | --------------------------- | ------------------------- | ------------------------------------- |
+| CSV     | `spark.read.csv()`          | `df.write.csv()`          | Use `header`, `inferSchema` options   |
+| JSON    | `spark.read.json()`         | `df.write.json()`         | Supports nested structures            |
+| Parquet | `spark.read.parquet()`      | `df.write.parquet()`      | Efficient, columnar, preferred format |
+| Avro    | `spark.read.format("avro")` | `df.write.format("avro")` | Needs Avro package                    |
+| ORC     | `spark.read.orc()`          | `df.write.orc()`          | Good for Hadoop/Hive                  |
+| Text    | `spark.read.text()`         | `df.write.text()`         | Single-column "value" per line        |
+
+---
+
