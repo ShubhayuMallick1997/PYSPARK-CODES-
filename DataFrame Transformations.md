@@ -1,11 +1,6 @@
 
 ---
 
-````markdown
-Certainly! Here's the same section rewritten in **normal Markdown (non-codeblock)** formatting for easier reading and documentation-style presentation:
-
----
-
 # 📑 5. DataFrame Transformations
 
 ---
@@ -53,6 +48,10 @@ Both can accept expressions or column-based conditions.
   ```
 
 > ℹ️ You can use either `filter()` or `where()`; they are interchangeable in DataFrame operations.
+
+---
+
+Let me know if you'd like the next sections ("withColumn", "cast", etc.) in the same format.
 
 ---
 
