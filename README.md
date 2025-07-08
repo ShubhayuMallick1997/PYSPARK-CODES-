@@ -6,6 +6,9 @@
   Data Engineer with 3+ years of experience in building robust, scalable, and cloud-native big data pipelines. Specialized in <b>PySpark</b>, <b>AWS EMR</b>, <b>SQL</b>, and <b>Airflow</b>. Experienced in delivering data-driven solutions for enterprise clients like <b>Sanofi</b>.
 </p>
 
+<p align="center">
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/Logo.png" alt="aws" width="2000" height="1500"/>
+</p>
 ---
 
 ## 🚀 About Me
