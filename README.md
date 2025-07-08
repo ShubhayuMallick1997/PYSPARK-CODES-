@@ -1,20 +1,107 @@
 <h1 align="center">Hi 👋, I'm SHUBHAYU MALLICK</h1>
-<h3 align="center"># 👨‍💻 Shubhayu Mallick | PySpark Data Engineer 🔹 Data Engineer with 3+ years of experience in building robust, scalable, and cloud-native big data pipelines 🔹 Specialized in **PySpark**, **AWS EMR**, **SQL**, and **Airflow** 🔹 Experienced in delivering data-driven solutions for enterprise clients like **Sanofi** --- ## 🚀 About Me I'm a passionate and performance-focused **Big Data Engineer** with a proven track record of implementing end-to-end ETL workflows, data lake architectures, and business analytics platforms in cloud environments. I focus on creating reliable, production-ready data pipelines that empower teams to make informed decisions with speed and scale. - 🔧 Hands-on experience with distributed data processing using **Apache Spark (PySpark DSL)** - ☁️ Strong expertise in **AWS** services: **EMR**, **S3**, **Lambda**, **Secrets Manager** - 📈 Data transformation and modeling for analytical layers using **Parquet**, **Snowflake**, and **Athena** - ⚙️ Workflow orchestration with **Apache Airflow** using EMR Operators - 🛠️ Version control using **Git/GitHub**, CI/CD with **Jenkins** - 🧪 Agile practitioner with sprint-based delivery, Jira tracking, and team collaboration --- ## 🛠️ Technical Stack | Category | Tools & Technologies | |---------------------|--------------------------------------------------------| | Programming | Python, PySpark, SQL | | Big Data Framework | Apache Spark, Hadoop, Hive | | Orchestration | Apache Airflow | | Cloud & Storage | AWS EMR, S3, Lambda, Athena, Secrets Manager | | Data Platforms | Snowflake, Web APIs | | DevOps & CI/CD | GitHub, Jenkins | | Formats & Tools | Parquet, JSON, CSV, Avro | | Methodologies | Agile (Scrum), Jira, Pull Requests, Code Reviews | --- ## 📂 Featured Projects ### 🔸 Enterprise Data Pipeline for Sanofi (AWS + PySpark) - Designed and developed modular PySpark jobs to ingest data from **S3**, **Web APIs**, and **Snowflake** - Used **Airflow DAGs** to automate job scheduling and EMR cluster lifecycle - Implemented performance optimizations including **anti-join refactoring** and **data salting** to reduce run time by 2+ hours - Final data stored in S3 in **Parquet** format, consumed by business teams via **Athena** ### 🔸 Data Skew & Memory Optimization in EMR - Resolved **data skew** issues using **salting techniques** - Configured **EMR auto-scaling** to handle memory-intensive transformations - Handled schema drift in Snowflake by implementing **dynamic schema validation** --- ## 📫 Connect with Me - 📧 Email: shubhayu250497@gmail.com - 💼 LinkedIn: [linkedin.com/in/shubhayu-mallick-76a3a426a](https://www.linkedin.com/in/shubhayu-mallick-76a3a426a) - 🌐 Portfolio/Blog: *Coming Soon* --- _“Data is not just numbers – it’s the language of business decisions.”_</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shubhayumallick1997&label=Profile%20views&color=0e75b6&style=flat" alt="shubhayumallick1997" /> </p>
+<h3 align="center">PySpark Data Engineer | 3+ Years Experience</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shubhayumallick1997" alt="shubhayumallick1997" /></a> </p>
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/shubhayu-mallick-76a3a426a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shubhayu-mallick-76a3a426a/" height="30" width="40" /></a>
+<p align="center">
+  Data Engineer with 3+ years of experience in building robust, scalable, and cloud-native big data pipelines. Specialized in <b>PySpark</b>, <b>AWS EMR</b>, <b>SQL</b>, and <b>Airflow</b>. Experienced in delivering data-driven solutions for enterprise clients like <b>Sanofi</b>.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shubhayumallick1997&show_icons=true&locale=en&layout=compact" alt="shubhayumallick1997" /></p>
+## 🚀 About Me
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shubhayumallick1997&show_icons=true&locale=en" alt="shubhayumallick1997" /></p>
+I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven track record of implementing end-to-end ETL workflows, data lake architectures, and business analytics platforms in cloud environments. I focus on creating reliable, production-ready data pipelines that empower teams to make informed decisions with speed and scale.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shubhayumallick1997&" alt="shubhayumallick1997" /></p>
+- ⚖️ Hands-on experience with distributed data processing using <b>Apache Spark (PySpark DSL)</b>
+- ☁️ Strong expertise in <b>AWS</b> services: <b>EMR</b>, <b>S3</b>, <b>Lambda</b>, <b>Secrets Manager</b>
+- 📊 Data transformation and modeling for analytical layers using <b>Parquet</b>, <b>Snowflake</b>, and <b>Athena</b>
+- ⚙️ Workflow orchestration with <b>Apache Airflow</b> using EMR Operators
+- 🛠️ Version control using <b>Git/GitHub</b>, CI/CD with <b>Jenkins</b>
+- 🧪 Agile practitioner with sprint-based delivery, Jira tracking, and team collaboration
+
+---
+
+## 🛠️ Technical Stack
+
+| Category          | Tools & Technologies                                 |
+|------------------|------------------------------------------------------|
+| Programming       | Python, PySpark, SQL                                 |
+| Big Data Framework| Apache Spark, Hadoop, Hive                           |
+| Orchestration     | Apache Airflow                                       |
+| Cloud & Storage   | AWS EMR, S3, Lambda, Athena, Secrets Manager         |
+| Data Platforms    | Snowflake, Web APIs                                  |
+| DevOps & CI/CD    | GitHub, Jenkins                                      |
+| Formats & Tools   | Parquet, JSON, CSV, Avro                             |
+| Methodologies     | Agile (Scrum), Jira, Pull Requests, Code Reviews     |
+
+---
+
+## 📂 Featured Projects
+
+### 🔸 Enterprise Data Pipeline for Sanofi (AWS + PySpark)
+
+- Designed and developed modular PySpark jobs to ingest data from <b>S3</b>, <b>Web APIs</b>, and <b>Snowflake</b>
+- Used <b>Airflow DAGs</b> to automate job scheduling and EMR cluster lifecycle
+- Implemented performance optimizations including <b>anti-join refactoring</b> and <b>data salting</b> to reduce run time by 2+ hours
+- Final data stored in S3 in <b>Parquet</b> format, consumed by business teams via <b>Athena</b>
+
+### 🔸 Data Skew & Memory Optimization in EMR
+
+- Resolved <b>data skew</b> issues using <b>salting techniques</b>
+- Configured <b>EMR auto-scaling</b> to handle memory-intensive transformations
+- Handled schema drift in Snowflake by implementing <b>dynamic schema validation</b>
+
+---
+
+## 📢 Connect with Me
+
+- 📧 Email: shubhayu250497@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/shubhayu-mallick-76a3a426a](https://www.linkedin.com/in/shubhayu-mallick-76a3a426a)
+- 🌐 Portfolio/Blog: <i>Coming Soon</i>
+
+---
+
+<blockquote>“Data is not just numbers – it’s the language of business decisions.”</blockquote>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shubhayumallick1997&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=shubhayumallick1997" alt="GitHub Trophies" />
+  </a>
+</p>
+
+### Connect with me:
+<p>
+  <a href="https://www.linkedin.com/in/shubhayu-mallick-76a3a426a/" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  </a>
+</p>
+
+### Languages and Tools:
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/>
+  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shubhayumallick1997&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shubhayumallick1997&show_icons=true&locale=en" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shubhayumallick1997" alt="GitHub Streak" />
+</p>
