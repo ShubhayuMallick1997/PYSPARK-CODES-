@@ -84,6 +84,7 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
 
 ### Languages and Tools:
 <p>
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/apache-spark.png" alt="aws" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
@@ -92,6 +93,8 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/AWS-Logo-PNG-Image.png" alt="aws" width="40" height="40"/>
+  
 </p>
 
 <p align="center">
