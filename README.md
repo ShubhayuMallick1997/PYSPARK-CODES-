@@ -88,16 +88,19 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/Capint-1-7.png" alt="aws" width="250" height="450"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="200" height="150">
   <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="160" height="120">
+  </p>
+<p align="center">
   <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="200" height="150">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="200" height="150">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="200" height="150">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="200" height="150">
+</p>
+<p align="center">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/hadoop-logo.png" alt="aws" width="180" height="130">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/azure_sql_database_logo_freelogovectors.net_.png" alt="aws" width="100" height="140">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/AWS-Logo-PNG-Image.png" alt="aws" width="180" height="150">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/1678719746960-removebg-preview.png" alt="aws" width="200" height="150">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/SNOW-35164165.png" alt="aws" width="120" height="140">
-  
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/SNOW-35164165.png" alt="aws" width="120" height="140"> 
 </p>
 
 <p align="center">
