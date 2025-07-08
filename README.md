@@ -1,48 +1,22 @@
-# PYSPARK-OVERVIEW
-# 👨‍💻 Shubhayu Mallick | PySpark Data Engineer
+<h1 align="center">Hi 👋, I'm SHUBHAYU MALLICK</h1>
+<h3 align="center">Data Engineer | 3+ Yrs Exp | PySpark | SQL | AWS EMR | Airflow | Big Data | Cloud Pipelines | Hive | S3 | Agile | Jira</h3>
 
-🔹 Data Engineer with 3+ years of experience in building robust, scalable, and cloud-native big data pipelines  
-🔹 Specialized in **PySpark**, **AWS EMR**, **SQL**, and **Airflow**  
-🔹 Experienced in delivering data-driven solutions for enterprise clients like **Sanofi**
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shubhayumallick1997&label=Profile%20views&color=0e75b6&style=flat" alt="shubhayumallick1997" /> </p>
 
----
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shubhayumallick1997" alt="shubhayumallick1997" /></a> </p>
 
-## 🚀 About Me
+- 🌱 I’m currently learning **| PySpark | SQL | AWS EMR | Airflow | Big Data | Cloud Pipelines | Hive | S3 | Agile | Jira**
 
-I'm a passionate and performance-focused **Big Data Engineer** with a proven track record of implementing end-to-end ETL workflows, data lake architectures, and business analytics platforms in cloud environments. I focus on creating reliable, production-ready data pipelines that empower teams to make informed decisions with speed and scale.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/shubhayu-mallick-76a3a426a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shubhayu-mallick-76a3a426a/" height="30" width="40" /></a>
+</p>
 
-- 🔧 Hands-on experience with distributed data processing using **Apache Spark (PySpark DSL)**
-- ☁️ Strong expertise in **AWS** services: **EMR**, **S3**, **Lambda**, **Secrets Manager**
-- 📈 Data transformation and modeling for analytical layers using **Parquet**, **Snowflake**, and **Athena**
-- ⚙️ Workflow orchestration with **Apache Airflow** using EMR Operators
-- 🛠️ Version control using **Git/GitHub**, CI/CD with **Jenkins**
-- 🧪 Agile practitioner with sprint-based delivery, Jira tracking, and team collaboration
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
----
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shubhayumallick1997&show_icons=true&locale=en&layout=compact" alt="shubhayumallick1997" /></p>
 
-## 🛠️ Technical Stack
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shubhayumallick1997&show_icons=true&locale=en" alt="shubhayumallick1997" /></p>
 
-| Category            | Tools & Technologies                                   |
-|---------------------|--------------------------------------------------------|
-| Programming         | Python, PySpark, SQL                                   |
-| Big Data Framework  | Apache Spark, Hadoop, Hive                             |
-| Orchestration       | Apache Airflow                                         |
-| Cloud & Storage     | AWS EMR, S3, Lambda, Athena, Secrets Manager           |
-| Data Platforms      | Snowflake, Web APIs                                    |
-| DevOps & CI/CD      | GitHub, Jenkins                                        |
-| Formats & Tools     | Parquet, JSON, CSV, Avro                               |
-| Methodologies       | Agile (Scrum), Jira, Pull Requests, Code Reviews       |
-
----
-
-
-## 📫 Connect with Me
-
-- 📧 Email: shubhayu250497@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/shubhayu-mallick-76a3a426a](https://www.linkedin.com/in/shubhayu-mallick-76a3a426a)  
-- 🌐 Portfolio/Blog: *Coming Soon*
-
----
-
-_“Data is not just numbers – it’s the language of business decisions.”_
-
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shubhayumallick1997&" alt="shubhayumallick1997" /></p>
