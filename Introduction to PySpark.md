@@ -58,12 +58,6 @@
 | Use Case        | Enterprise big data workflows    | Local analytics, prototyping|
 
 ---
-
-## 🔹 Installation
-
-### ✅ Local Installation
-```bash
-
 ## ☁️ In Cloud
 
 You can run PySpark in various cloud platforms with managed or semi-managed setups:
@@ -117,4 +111,10 @@ PySpark is used across industries for high-volume data processing and analytics:
 - Predictive maintenance using time-series data
 
 > ⚙️ In all cases, PySpark enables scalable ETL, aggregation, and ML pipelines that work on large volumes of structured and unstructured data.
+
+
+## 🔹 Installation
+
+### ✅ Local Installation
+```bash
 
