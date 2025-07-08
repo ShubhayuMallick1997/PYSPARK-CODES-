@@ -1,5 +1,12 @@
+Thanks for sharing your formatted markdown! You’re almost there — just a couple of syntax corrections are needed:
+
+### ✅ Main Issue:
+
+You opened a markdown code block using **four backticks (` ````markdown `)** at the top, but didn’t close it correctly at the end. This caused the rest of the markdown to be interpreted as code instead of formatted content.
 
 ---
+
+### ✅ Corrected Version:
 
 ````markdown
 # 📊 3. RDDs (Resilient Distributed Datasets)
@@ -23,6 +30,7 @@ It is:
 ## 🔹 Creating RDDs
 
 ### ✅ From a collection (local data)
+
 ```python
 data = [1, 2, 3, 4, 5]
 rdd = sc.parallelize(data)
@@ -185,5 +193,5 @@ Ready to move on to [4. DataFrames and Datasets](#)? 📑 Let’s dive in!
 
 ---
 
-Let me know if you'd like this turned into a `.md` file or paired with **code notebooks** for practice!
+Let me know if you want this as a downloadable file or embedded into a GitHub `README.md`.
 ```
