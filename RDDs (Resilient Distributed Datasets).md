@@ -31,12 +31,6 @@ This reads a text file from S3 (or HDFS/local FS) line by line into an RDD.
 
 > ⚠️ Always use `SparkContext` (`sc`) to create RDDs directly. In most modern PySpark workflows, structured data is preferred via `SparkSession` and DataFrames.
 
-```
-
----
-
-Let me know if you'd like the entire topic 3 bundled into a single `.md` file!
-```
 
 ---
 
