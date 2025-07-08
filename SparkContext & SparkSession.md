@@ -18,16 +18,6 @@ from pyspark import SparkConf, SparkContext
 conf = SparkConf().setAppName("MyApp").setMaster("local[*]")
 sc = SparkContext(conf=conf)
 
-## 🔹 SparkContext Initialization
-
-`SparkContext` is the **core engine** that connects your application to a Spark cluster. It represents the **connection to a Spark execution environment**.
-
-### 🔧 Example:
-```python
-from pyspark import SparkConf, SparkContext
-
-conf = SparkConf().setAppName("MyApp").setMaster("local[*]")
-sc = SparkContext(conf=conf)
 ````
 
 * `setAppName()` – Sets the name shown in the Spark UI
