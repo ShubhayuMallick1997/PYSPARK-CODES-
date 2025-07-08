@@ -204,11 +204,3 @@ df = df.withColumn("grade",
 
 ---
 
-Ready to move on to [6. Aggregations and Grouping](#)? 🧮 Let's explore grouping, pivoting, and window functions!
-
-```
-
----
-
-Would you like a **code notebook** version or this section exported as a **`.md` file for GitHub/portfolio use**?
-```
