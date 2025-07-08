@@ -1,12 +1,7 @@
-Certainly! Below is the **correctly formatted and complete Markdown section** for:
-
-### 📊 3. RDDs (Resilient Distributed Datasets)
-
-#### 🔹 Creating RDDs (from collection and file)
+Certainly! Here's the **clean and properly formatted Markdown** version for the section:
 
 ---
 
-````markdown
 # 📊 3. RDDs (Resilient Distributed Datasets)
 
 ---
@@ -16,10 +11,11 @@ Certainly! Below is the **correctly formatted and complete Markdown section** fo
 **RDD (Resilient Distributed Dataset)** is the **core low-level abstraction** in Apache Spark for working with distributed data.
 
 It is:
-- **Immutable** – once created, it cannot be modified
-- **Distributed** – stored across multiple nodes in a cluster
-- **Lazy Evaluated** – transformations aren’t executed until an action is called
-- **Fault-tolerant** – can recover from node failures automatically
+
+* **Immutable** – once created, it cannot be modified
+* **Distributed** – stored across multiple nodes in a cluster
+* **Lazy Evaluated** – transformations aren’t executed until an action is called
+* **Fault-tolerant** – can recover from node failures automatically
 
 > 💡 RDDs were the **original abstraction in Spark**, and though DataFrames and Datasets are now preferred for structured data, RDDs are still powerful and useful for low-level transformations.
 
@@ -32,7 +28,7 @@ It is:
 ```python
 data = [1, 2, 3, 4, 5]
 rdd = sc.parallelize(data)
-````
+```
 
 This creates an RDD from a Python list using the `SparkContext.parallelize()` method.
 
@@ -56,6 +52,10 @@ This reads a text file (line by line) into an RDD.
 * Each line in the file becomes an element in the RDD.
 
 > ⚠️ Use `SparkContext` (`sc`) to create RDDs. In modern PySpark workflows, DataFrames (via `SparkSession`) are typically preferred for structured data.
+
+---
+
+Let me know if you'd like to continue with the next part or export this as a `.md` file.
 
 ```
 
