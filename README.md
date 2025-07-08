@@ -95,7 +95,7 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/hadoop-logo.png" alt="aws" width="250" height="150">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/azure_sql_database_logo_freelogovectors.net_.png" alt="aws" width="100" height="150">
   <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/AWS-Logo-PNG-Image.png" alt="aws" width="250" height="150">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/518-5188627_apache-airflow-documentation-airflow-documentation-apache-airflow-logo.png" alt="aws" width="200" height="150">
+  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/1678719746960-removebg-preview.png" alt="aws" width="200" height="150">
   
   
 </p>
