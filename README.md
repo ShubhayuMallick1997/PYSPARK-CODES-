@@ -27,7 +27,7 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
 ## 🛠️ Technical Stack
 
 | Category          | Tools & Technologies                                 |
-|------------------|------------------------------------------------------|
+|-------------------|------------------------------------------------------|
 | Programming       | Python, PySpark, SQL                                 |
 | Big Data Framework| Apache Spark, Hadoop, Hive                           |
 | Orchestration     | Apache Airflow                                       |
