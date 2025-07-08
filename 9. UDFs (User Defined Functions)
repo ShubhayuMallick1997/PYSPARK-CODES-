@@ -1,0 +1,112 @@
+
+---
+
+# 🔐 9. UDFs (User Defined Functions)
+
+---
+
+## 🔹 What is a UDF?
+
+A **User Defined Function (UDF)** in PySpark allows you to create your own custom function in Python and apply it to one or more columns of a DataFrame.
+
+UDFs are helpful when:
+
+* The transformation logic is too complex to be handled using built-in PySpark functions.
+* You need to reuse external business logic.
+* You want to encapsulate repeated logic into a reusable function.
+
+However, **UDFs are slower** than built-in functions because they operate row-by-row and bypass Spark’s optimizations (Catalyst & Tungsten).
+
+---
+
+## ✅ 1. Creating and Using a UDF
+
+To use a UDF in PySpark:
+
+1. Define a regular Python function.
+2. Convert it into a Spark UDF using `udf()` and specify the return type.
+3. Use it in `withColumn()` or `select()`.
+
+**Example:**
+
+```python
+def convert_case(name):
+    return name.upper()
+
+from pyspark.sql.functions import udf
+from pyspark.sql.types import StringType
+
+upper_udf = udf(convert_case, StringType())
+df.withColumn("name_upper", upper_udf(df["name"])).show()
+```
+
+---
+
+## ✅ 2. Using the `@udf` Decorator (PySpark 3.x+)
+
+Instead of explicitly calling `udf()`, you can use the `@udf` decorator to define UDFs in a cleaner way.
+
+```python
+from pyspark.sql.functions import udf
+from pyspark.sql.types import IntegerType
+
+@udf(returnType=IntegerType())
+def square(x):
+    return x * x
+
+df.withColumn("squared", square(df["value"])).show()
+```
+
+---
+
+## ✅ 3. Registering UDFs for SQL
+
+You can also register a UDF to use it in Spark SQL:
+
+```python
+spark.udf.register("to_upper", convert_case, StringType())
+df.createOrReplaceTempView("people")
+spark.sql("SELECT id, to_upper(name) as name_upper FROM people").show()
+```
+
+---
+
+## ✅ 4. Using `pandas_udf` for Better Performance
+
+`pandas_udf` is a vectorized version of UDF that works on entire **Pandas Series** instead of single rows. It's much faster and utilizes **Apache Arrow** for better memory and CPU efficiency.
+
+```python
+from pyspark.sql.functions import pandas_udf
+import pandas as pd
+
+@pandas_udf("string")
+def upper_case_series(series: pd.Series) -> pd.Series:
+    return series.str.upper()
+
+df.withColumn("upper_name", upper_case_series("name")).show()
+```
+
+---
+
+## ⚠️ When to Avoid UDFs
+
+* When a built-in function is available (e.g., `upper()`, `concat()`, `when()`), **use that instead**.
+* UDFs **disable query optimization** and **reduce performance**.
+* They are not automatically optimized for distributed execution.
+
+---
+
+## ✅ Summary
+
+| Concept          | Explanation                                        |
+| ---------------- | -------------------------------------------------- |
+| UDF              | User-defined function applied to DataFrame columns |
+| Traditional UDF  | Simple to use, but slower                          |
+| `@udf` decorator | Clean syntax for defining UDFs                     |
+| SQL UDF          | Can be used inside `spark.sql()` queries           |
+| `pandas_udf`     | High-performance alternative using Pandas          |
+| Best practice    | Prefer built-in functions when available           |
+
+---
+
+
