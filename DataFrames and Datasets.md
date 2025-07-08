@@ -195,11 +195,3 @@ df.select(col("salary").alias("income")).show()
 
 ---
 
-Ready to move on to [5. DataFrame Transformations](#)? 🔄 Let's go!
-
-```
-
----
-
-Would you like this saved as a `.md` file or embedded into your GitHub documentation structure?
-```
