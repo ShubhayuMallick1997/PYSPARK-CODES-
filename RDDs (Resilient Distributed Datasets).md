@@ -1,4 +1,3 @@
-Here's the corrected and completed Markdown section for **Creating RDDs from a collection**, including proper code block closure and continuation:
 
 ---
 
