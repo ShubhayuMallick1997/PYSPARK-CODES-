@@ -1,4 +1,7 @@
-<h1 align="center">Hi 👋, I'm SHUBHAYU MALLICK</h1>
+<p align="center">
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/Recording2025-07-09173049-Copy-ezgif.com-cut.gif" alt="Logo" width=2000/>
+</p>
+<h1 align="center">Hi 👋, I'm <span style="color:#ff6347;">SHUBHAYU MALLICK</span></h1>
 
 <h3 align="center">PySpark Data Engineer | 3+ Years Experience</h3>
 
@@ -7,8 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/Screenshot%202025-07-09%20030151.png" alt="aws" width="2000" height="400"/>
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/ezgif-874e7953f956ae.gif" alt="Tech Banner" width="100%" />
 </p>
+
 ---
 
 ## 🚀 About Me
@@ -24,18 +28,22 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
 
 ---
 
+<p align="center">
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/Screenshot%202025-07-09%20150123.png" alt="Tech Stack" width="100%" />
+</p>
+
 ## 🛠️ Technical Stack
 
-| Category          | Tools & Technologies                                 |
-|-------------------|------------------------------------------------------|
-| Programming       | Python, PySpark, SQL                                 |
-| Big Data Framework| Apache Spark, Hadoop, Hive                           |
-| Orchestration     | Apache Airflow                                       |
-| Cloud & Storage   | AWS EMR, S3, Lambda, Athena, Secrets Manager         |
-| Data Platforms    | Snowflake, Web APIs                                  |
-| DevOps & CI/CD    | GitHub, Jenkins                                      |
-| Formats & Tools   | Parquet, JSON, CSV, Avro                             |
-| Methodologies     | Agile (Scrum), Jira, Pull Requests, Code Reviews     |
+| Category           | Tools & Technologies                                  |
+|--------------------|-------------------------------------------------------|
+| Programming        | Python, PySpark, SQL                                  |
+| Big Data Framework | Apache Spark, Hadoop, Hive                            |
+| Orchestration      | Apache Airflow                                        |
+| Cloud & Storage    | AWS EMR, S3, Lambda, Athena, Secrets Manager          |
+| Data Platforms     | Snowflake, Web APIs                                   |
+| DevOps & CI/CD     | GitHub, Jenkins                                       |
+| Formats & Tools    | Parquet, JSON, CSV, Avro                              |
+| Methodologies      | Agile (Scrum), Jira, Pull Requests, Code Reviews      |
 
 ---
 
@@ -58,8 +66,8 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
 
 ## 📢 Connect with Me
 
-- 📧 Email: shubhayu250497@gmail.com
-- 💼 LinkedIn: [https://www.linkedin.com/in/shubhayu-mallick-76a3a426a]
+- 📧 Email: shubhayu250497@gmail.com  
+- 💼 LinkedIn: [linkedin.com/in/shubhayu-mallick-76a3a426a](https://www.linkedin.com/in/shubhayu-mallick-76a3a426a)  
 - 🌐 Portfolio/Blog: <i>Coming Soon</i>
 
 ---
@@ -69,53 +77,51 @@ I'm a passionate and performance-focused <b>Big Data Engineer</b> with a proven 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shubhayumallick1997&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/20250709_1211_IntenseCodingAtmosphere_simple_compose_01jzpypkbjf4k9cn2fh81mngfbonline-video-cutter-ezgif.com-cut%20(2).gif" alt="Profile coding gif" width="80%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/ShubhayuMallick1997/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=shubhayumallick1997" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=shubhayumallick1997&theme=gruvbox&column=7" alt="GitHub Trophies" width="90%" />
   </a>
 </p>
 
-### Connect with me:
+---
+
+### 🔗 Connect with me
+
 <p align="center">
   <a href="https://www.linkedin.com/in/shubhayu-mallick-76a3a426a/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="100" width="100" />
-  <a href="https://www.youtube.com/@shubhayumallick577" target="_blank">
-    <img align="center" src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/pngtree-youtube-social-media-3d-stereo-png-image_6308427-removebg-preview.png" alt="LinkedIn" height="150" width="150" />
+    <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/linkedin-logo.png" alt="LinkedIn" height="50" width="200" />
   </a>
+   <a href="https://github.com/ShubhayuMallick1997" target="_blank">
+    <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/logo-05.3cd48609%20(1)1.png" alt="GitHub" height="50" width="200" />
+  </a>
+    <a href="https://www.hackerrank.com/profile/rajamallick087" target="_blank">
+    <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/hackerrank-software.png" alt="Hackerrank" height="50" width="200" />
+  </a>
+  <a href="https://www.youtube.com/@shubhayumallick577" target="_blank">
+    <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/YouTube-Custom-URL-Claim-Name-scaled.png" alt="YouTube" height="50" width="200" />
+  </a>
+  
 </p>
 
-### Languages and Tools:
+---
+
+### 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/apache-spark.png" alt="aws" width="200" height="150"/>
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/Capint-1-7.png" alt="aws" width="250" height="450"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="200" height="150">
-  <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="160" height="120">
-  </p>
-<p align="center">
-  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="200" height="150">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="200" height="150">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="200" height="150">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="200" height="150">
-</p>
-<p align="center">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/hadoop-logo.png" alt="aws" width="180" height="130">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/azure_sql_database_logo_freelogovectors.net_.png" alt="aws" width="100" height="140">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/AWS-Logo-PNG-Image.png" alt="aws" width="180" height="150">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/1678719746960-removebg-preview.png" alt="aws" width="200" height="150">
-  <img src="https://github.com/ShubhayuMallick1997/PYSPARK-OVERVIEW/blob/main/SNOW-35164165.png" alt="aws" width="120" height="140"> 
+  <img src="https://komarev.com/ghpvc/?username=shubhayumallick&color=blue&style=flat-square" alt="Profile Views" height="50" width="130" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shubhayumallick1997&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shubhayumallick1997&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="700" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shubhayumallick1997&show_icons=true&locale=en" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shubhayumallick1997&show_icons=true&locale=en" alt="GitHub Stats" width="1000" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shubhayumallick1997" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shubhayumallick1997" alt="GitHub Streak" width="1000" />
 </p>
