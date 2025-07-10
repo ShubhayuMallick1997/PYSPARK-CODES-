@@ -12,43 +12,30 @@ Welcome to my PySpark learning repository! This is a collection of essential PyS
 
 ---
 
-## <span style="color:#FF6347;">🔑 **Covered Topics:**</span>
-<body style="font-family:Arial, sans-serif;">
+# 🧠 PySpark Topics Table
 
-  <h1 style="color:#4CAF50;">📚 PySpark Topics Index</h1>
-  <p>Below is the list of topics covered in this PySpark course:</p>
+| #  | Topic Title                                | Key Concepts Covered |
+|----|--------------------------------------------|-----------------------|
+| 1  | 🧑‍💻 Introduction to PySpark               | What is PySpark?, Ecosystem Overview, Architecture, PySpark vs Pandas, Installation |
+| 2  | 🗂️ SparkContext & SparkSession             | SparkContext, SparkConf, SparkSession, Application lifecycle |
+| 3  | 📊 RDDs (Resilient Distributed Datasets)   | Creating RDDs, Transformations, Actions, Lazy Evaluation, Caching, RDD vs DataFrame |
+| 4  | 📈 DataFrames and Datasets                 | Creating DF from RDD/CSV/JSON, Schema, Column operations, Aliasing |
+| 5  | 📑 DataFrame Transformations               | filter, withColumn, cast, drop, distinct, string/date functions, when/otherwise |
+| 6  | 🧮 Aggregations and Grouping               | groupBy, agg, pivot, window functions |
+| 7  | 🔁 Joins in PySpark                        | Inner/Outer Joins, Semi/Anti Join, Broadcast Join, Salting, Optimizations |
+| 8  | 📂 Working with Files                      | Read/Write CSV, JSON, Parquet, ORC, Avro; S3/HDFS/local; Compression |
+| 9  | 🧾 PySpark SQL                             | Temp Views, SQL vs DSL, UDF Registration |
+| 10 | ⚙️ UDFs (User Defined Functions)          | Writing UDFs, Registering, Performance, pandas_udf |
+| 11 | 🏭 Partitioning & Performance Optimization | Repartition, Coalesce, Catalyst, Tungsten, Skew handling |
+| 12 | 🧠 PySpark MLlib (Machine Learning)        | MLlib vs sklearn, Feature Transformers, Pipelines, Regression, CrossValidator |
+| 13 | 📦 Broadcast Variables & Accumulators     | Use cases, Broadcast joins, Performance tuning |
+| 14 | 🔄 PySpark Streaming                      | DStreams vs Structured, Kafka/File/Socket sources, Windowed aggregations, Sinks |
+| 15 | 🔐 Working with AWS and Cloud             | S3 read/write, Snowflake connectors, Secrets Manager, EMR, Glue vs EMR |
+| 16 | 🪄 Airflow Integration                    | DAGs, EMR Operators, Triggering PySpark via Airflow |
+| 17 | 🧪 Testing and Debugging                  | Pytest, unittest, Logging, .explain(), Spark UI |
+| 18 | 🧰 DevOps & Deployment                    | Git, Jenkins CI/CD, Packaging PySpark, Monitoring Jobs |
+| 19 | 📚 Advanced Topics                        | Delta Lake, Iceberg, Lakehouse, Z-Ordering, Performance Tuning |
 
-  <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse:collapse; font-size:16px;">
-    <thead>
-      <tr style="background-color:#4CAF50; color:white;">
-        <th style="text-align:left;">#</th>
-        <th style="text-align:left;">Topic</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>Introduction to PySpark</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>2</td><td>SparkContext & SparkSession</td></tr>
-      <tr><td>3</td><td>RDDs (Resilient Distributed Datasets)</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>4</td><td>DataFrames and Datasets</td></tr>
-      <tr><td>5</td><td>DataFrame Transformations</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>6</td><td>Aggregations and Grouping</td></tr>
-      <tr><td>7</td><td>Joins in PySpark</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>8</td><td>Working with Files in PySpark</td></tr>
-      <tr><td>9</td><td>UDFs (User Defined Functions)</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>10</td><td>Partitioning & Performance Optimization</td></tr>
-      <tr><td>11</td><td>PySpark MLlib (Machine Learning)</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>12</td><td>PySpark Streaming and Structured Streaming</td></tr>
-      <tr><td>13</td><td>PySpark SQL</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>14</td><td>Working with AWS and Cloud in PySpark</td></tr>
-      <tr><td>15</td><td>Airflow Integration with PySpark</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>16</td><td>Testing and Debugging in PySpark</td></tr>
-      <tr><td>17</td><td>DevOps & Deployment for PySpark Projects</td></tr>
-      <tr style="background-color:#f2f2f2;"><td>18</td><td>Advanced Topics in PySpark</td></tr>
-    </tbody>
-  </table>
-
-</body>
-</html>
 
 The primary goal of this repository is to:
 - **Learn PySpark from the ground up**, progressing through all essential concepts from RDDs to advanced optimization.
