@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/902b173840ce36850dd1c7e88aa046-removebg-preview.png" alt="PySpark Cover" height= "300%" , width="20%" />
   <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/ezgif-5a997e59bd6be0.gif" alt="PySpark Cover" width="40%" />
-  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/transparent-big-data-globe-with-big-data-in-colorful-handwritten-1710918043576-removebg-preview.png" alt="PySpark Cover" height="220%" width="23%" />
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/transparent-big-data-globe-with-big-data-in-colorful-handwritten-1710918043576-removebg-preview.png" alt="PySpark Cover" height="180%" width="23%" />
 </p> 
 
 # <span style="color:#4CAF50;">📚 Welcome to My PySpark Learning Journey 🚀</span>
