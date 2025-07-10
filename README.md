@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/aw7xigici-removebg-preview.png" alt="PySpark Cover" height= "200%" , width="22%" />
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/aw7xigici-removebg-preview.png" alt="PySpark Cover" height= "200%" , width="24%" />
   <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/ezgif-5a997e59bd6be0.gif" alt="PySpark Cover" width="40%" />
   <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/a8kme7jo0-removebg-preview.png" alt="PySpark Cover" height="200%" width="23%" />
 </p> 
